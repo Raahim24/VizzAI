@@ -1,0 +1,26 @@
+# Add to .gitignore
+cat >> .gitignore << 'EOF'
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+
+# VizzAI temp folders
+downloads/
+frames/
+temp_videos/
+utils/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
