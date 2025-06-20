@@ -2,8 +2,6 @@
 
 > An intelligent video analysis platform that combines AI transcript processing with visual frame analysis. Users can ask natural language questions about YouTube videos and get precise answers with clickable timestamps.
 
-![VizzAI Demo](https://via.placeholder.com/800x400/64ffda/0f172a?text=VizzAI+Demo)
-
 ## 🚀 **What VizzAI Does**
 
 **VizzAI** is a full-stack multimodal AI application that revolutionizes how people interact with video content. Instead of watching entire videos, users can simply ask questions and get instant, precise answers.
@@ -423,12 +421,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
----
-
-## ⭐ **Show your support**
-
-Give a ⭐️ if this project helped you!
 
 ---
 
