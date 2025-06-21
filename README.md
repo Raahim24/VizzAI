@@ -173,39 +173,42 @@ Git
 ```
 
 ### **Quick Start**
+
+#### 1. Clone repository
 ```bash
-# 1. Clone repository
 git clone https://github.com/your-username/vizzai.git
 cd vizzai
-
-# 2. Backend setup
+```
+#### 2. Backend setup
+```bash
 cd backend
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
 
-# 3. Environment configuration
+#### 3. Environment configuration
+```bash
 cp .env.example .env
+GEMINI_API_KEY=your_gemini_api_key_here
 # Add your GEMINI_API_KEY to .env file
+```
+##### 4. Start backend server
+```bash
+python -m api.main # IMP: You should be in backend folder
+```
 
-# 4. Start backend server
-python -m api.main
-
-# 5. Frontend setup (new terminal)
+#### 5. Frontend setup (new terminal)
+```bash
 cd frontend
 npm install
 npm start
+```
 
-# 6. Open application
+#### 6. Open application
+```bash
 # http://localhost:3000
 ```
-
-### **Environment Variables**
-```bash
-# .env file configuration
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
 ---
 
 ## 🎮 **How to Use**
